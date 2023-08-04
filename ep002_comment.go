@@ -7,7 +7,7 @@ import "fmt" //นำเอา Package เข้ามาทำงาน
 โดยการแสดงผลจะอาศัยคำสัง fmtprintln
 */
 
-func main() {
+func main_2() {
 	fmt.Println("Hello Go Programing")
 	fmt.Println("John Tik")
 	fmt.Println("I Love Arsenal")
