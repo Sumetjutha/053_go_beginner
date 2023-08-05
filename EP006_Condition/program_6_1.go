@@ -10,8 +10,8 @@ func main() {
 	fmt.Println("ตัวเลข = ", number)
 
 	if number%2 == 0 {
-		fmt.Print("เลขคู่")
+		fmt.Println("เลขคู่")
 	} else {
-		fmt.Print("เลขคี่")
+		fmt.Println("เลขคี่")
 	}
 }
