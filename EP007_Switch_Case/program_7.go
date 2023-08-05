@@ -9,11 +9,12 @@ func main() {
 	fmt.Scanf("%d", &number)
 	fmt.Println("ตัวเลข = ", number)
 
-	if number == 1 {
+	switch number {
+	case 1:
 		fmt.Println("เปิดบัญชีใหม่")
-	} else if number == 2 {
-		fmt.Println("ฝากเงิน - ถอนเงิน")
-	} else {
+	case 2:
+		fmt.Println("ฝากเงิน - ถอน")
+	default:
 		fmt.Println("ข้อมูลไม่ถูกต้อง")
 	}
 }
